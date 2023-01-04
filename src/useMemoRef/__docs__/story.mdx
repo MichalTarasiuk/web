@@ -15,7 +15,10 @@ import { ImportPath } from '../../storybookUtil/ImportPath';
 ## Reference
 
 ```ts
-
+function useMemoRef<MemoValue, Deps extends DependencyList>(
+  factory: () => MemoValue,
+  deps: Deps
+): MemoValue;
 ```
 
 #### Importing
@@ -24,4 +27,5 @@ import { ImportPath } from '../../storybookUtil/ImportPath';
 
 #### Arguments
 
-#### Return
+- **factory** _`() => unknown`_ - useMemo factory function.
+- **deps** _`DependencyList`_ - useMemo dependency list.
