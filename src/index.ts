@@ -57,6 +57,7 @@ export { usePermission, UsePermissionState } from './usePermission/usePermission
 export { useVibrate } from './useVibrate/useVibrate';
 
 // Miscellaneous
+export { useMemoRef } from './useMemoRef/useMemoRef';
 export { useSyncedRef } from './useSyncedRef/useSyncedRef';
 export { useHookableRef, HookableRefHandler } from './useHookableRef/useHookableRef';
 export { useCustomCompareMemo } from './useCustomCompareMemo/useCustomCompareMemo';
